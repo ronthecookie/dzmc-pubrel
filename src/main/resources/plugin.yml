@@ -1,0 +1,5 @@
+name: Dangerzone
+version: ${project.version}
+main: me.ronthecookie.dzmc.Dangerzone
+api-version: 1.15
+depend: [Essentials, Vault, LuckPerms]

@@ -1,0 +1,24 @@
+moneyblocks:
+    YELLOW_GLAZED_TERRACOTTA: 0.1
+    LIGHT_BLUE_GLAZED_TERRACOTTA: 0.3
+    LIME_GLAZED_TERRACOTTA: 0.5
+    LIGHT_GRAY_GLAZED_TERRACOTTA: 0.7
+    BLACK_GLAZED_TERRACOTTA: 1
+start-button:
+    ==: org.bukkit.Location
+    world: MainMap
+    x: 416.0
+    y: 77.0
+    z: 164.0
+    pitch: 0.0
+    yaw: 0.0
+
+respawn-kit-groups:
+    - default
+    - mtf
+    - sd
+    - director
+respawn-kit-secondary-groups:
+    - permm82
+    - permak
+    - permdeagle
