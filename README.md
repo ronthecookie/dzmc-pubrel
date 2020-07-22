@@ -4,7 +4,7 @@ Not working on that server anymore so might as well release the plugin's code fo
 I hope by releasing this someone goes out there and makes a better SCP MC server with this so Dangerzone gets some real competition.
 
 ## Usage
-You can download it [here](https://github.com/ronthecookie/dzmc-pubrel/releases) and edit the configuration in `plugins/Dangerzone/config.yml`.
+You can download it [here](https://github.com/ronthecookie/dzmc-pubrel/releases) (or [here](https://github.com/ronthecookie/dzmc-pubrel/releases/download/v2.0/dzmc-2-1.15.2.jar) if you're extra lazy) and edit the configuration in `plugins/Dangerzone/config.yml`.
 
 Run with paper for best performance.
 
