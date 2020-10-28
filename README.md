@@ -62,9 +62,7 @@ Maybe... Just try it and see what happends, I haven't tested it.
 More? Open an issue if I forgot something.
 
 ### Keycard
-~~Any item can be marked as a keycard with `/markcard <level>`. Certain redstone inputs (different buttons & the lever) are mapped to [certain keycard levels](https://github.com/ronthecookie/dzmc/blob/master/src/main/java/me/ronthecookie/dzmc/keycards/Keycard.java).~~
-
-Keycards redacted for private reasons.
+~~Any item can be marked as a keycard with `/markcard <level>`. Certain redstone inputs (different buttons & the lever) are mapped to [certain keycard levels](https://github.com/ronthecookie/dzmc-pubrel/blob/master/src/main/java/me/ronthecookie/dzmc/keycards/Keycard.java).~~
 
 ## Support
 None. I don't care about Dangerzone or this plugin anymore so expect bugs and shitty code.

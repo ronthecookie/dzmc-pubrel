@@ -9,6 +9,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import co.aikar.commands.PaperCommandManager;
 import lombok.Getter;
+import me.ronthecookie.dzmc.keycards.MarkCardCommand;
+import me.ronthecookie.dzmc.keycards.KeycardListener;
 import me.ronthecookie.dzmc.suspend.SuspendCommand;
 import me.ronthecookie.dzmc.suspend.UnsuspendTask;
 import net.luckperms.api.LuckPerms;
@@ -54,6 +56,7 @@ public final class Dangerzone extends JavaPlugin implements Listener {
 		manager.registerCommand(new PunishCommand());
 		manager.registerCommand(new CasinoCommand());
 		manager.registerCommand(new MGMinecartCommand());
+		manager.registerCommand(new MarkCardCommand());
 
 		new AlertTask().runTaskTimer(this, 0, 20 * 60 * 2); // 5 min
 		new UnsuspendTask().runTaskTimer(this, 0, 20 * 60); // quite often = good
@@ -74,6 +77,7 @@ public final class Dangerzone extends JavaPlugin implements Listener {
 		registerEvents(new MGMinecartCommand()); // TODO dont make new instance
 		registerEvents(new DoubleJumpListener());
 		registerEvents(new CafeteriaMission());
+		registerEvents(new KeycardListener());
 	}
 
 	@Override
